@@ -80,9 +80,15 @@ python train.py --augment4x aug4x
 # Predict the classification results of the test set
 python predict.py 
 ```
+
 ```bash
 # Calculate the confusion matrix of the model in the test set
 python confusion.py
+```
+
+```bash
+# Visualizes Grad-CAM heatmaps for a single image using ViT or ResNet models
+python singgrad.py
 ```
 ## 📊 Results (from manuscript)
 🔷 Vision Transformer (ViT)
